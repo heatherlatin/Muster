@@ -2,7 +2,7 @@
 
 ## About Muster
 
-![Run Through GIF](ScreenShots\Muster-gif.gif)
+![Run Through GIF](ScreenShots/Muster-gif.gif)
 
 
 
