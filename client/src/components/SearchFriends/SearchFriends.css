@@ -1,0 +1,24 @@
+
+#searchFriends {
+    background-color: white;
+    box-shadow: 0 3px 6px rgb(238, 160, 129), 0 3px 6px rgb(238, 160, 129);
+    width: 25rem;
+    height: 22rem;
+
+}
+
+#searchBar {
+    width: 15rem;
+    border-color: rgb(214, 209, 209);
+    margin-left: 1rem;
+}
+
+#searchBar:focus {
+    box-shadow: 5px 5px 5px rgb(245, 206, 174);
+    border-color: none;
+}
+
+#searchArea {
+    justify-content: center;
+}
+

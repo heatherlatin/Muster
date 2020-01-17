@@ -1,0 +1,18 @@
+#formGridQ.form-control{
+        border-color: rgb(255, 165, 91);
+        border-width: thin;
+}
+
+#formGridQ.form-control:focus {
+        box-shadow: 0 0 35px rgb(255, 165, 91);
+        border-color: lightgray;
+}
+
+div.form-row {
+        justify-content: center;
+}
+
+#submit-button2 {
+        height: 2.4rem;
+
+}

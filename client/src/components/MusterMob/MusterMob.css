@@ -1,0 +1,42 @@
+#saved-mob {
+    background-color: white;
+    box-shadow: 0 3px 6px rgb(241, 229, 180), 0 3px 6px rgb(241, 229, 180);
+    border-color: white;
+}
+
+#event-title  {
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    background-image:
+    radial-gradient(
+      white,
+      rgb(248, 236, 232)
+    );
+}
+
+#event-day-title {
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    background-image:
+    radial-gradient(
+      white,
+      rgb(248, 236, 232)
+    );
+
+}
+
+#event-date {
+    text-align: center;
+}
+
+#event-url {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 18rem;
+    
+}

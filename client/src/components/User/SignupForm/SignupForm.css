@@ -1,0 +1,103 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid whitesmoke;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px whitesmoke inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+#signupForm {
+    margin: 0 auto;
+}
+
+#form-input:focus {
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 5px 5px rgb(223, 248, 214);
+    border-color: lightgray;
+  }
+
+#submit-button {
+    margin: 0 auto;
+  }
+
+
+
+#checkbox:valid {
+    background-color: rgb(241, 239, 239);
+}
+
+#submitButtonRow {
+    justify-content: center;
+}
+
+#submit-button {
+    background-color: lightgray;
+    border: none;
+   
+}
+
+#linkRow {
+    justify-content: center;
+}
+
+#link {
+    color: rgb(108, 149, 92);
+}
+
+#submit-button:focus {
+    box-shadow: 5px 5px 5px rgb(223, 248, 214);
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.AboutUser {
+    padding-top: -2rem;
+    padding-right: 12rem;
+    padding-bottom: 1rem;
+}
+
+/* #neon {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 3.5em;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+}
+
+#neon::after {
+    content: "One Last Thing";
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+}
+
+#neon::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    filter: blur(40px);
+    opacity: .5;
+} */
+
+
+

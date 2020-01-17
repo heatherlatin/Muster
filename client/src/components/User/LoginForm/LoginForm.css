@@ -1,0 +1,25 @@
+#login-card {
+    height: 28rem;
+    width: 23rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 6px rgb(244, 200, 97), 0 3px 6px rgb(240, 195, 91);
+    
+
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
+#login-button {
+    background-color: lightgray;
+    color: white;
+}
+
+#sign-up {
+    color: rgb(244, 200, 97);
+}

@@ -1,0 +1,14 @@
+
+#suggestedFriends {
+    background-color: white;
+    box-shadow: 0 3px 6px rgb(175, 217, 235), 0 3px 6px rgb(175, 217, 235);
+    width: 50rem;
+    height: 10rem;
+    margin-top: 10px;
+
+}
+
+.hide {
+    display: none;
+}
+

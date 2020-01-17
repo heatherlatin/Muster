@@ -1,0 +1,45 @@
+.AboutUser {
+    font-family: sans-serif;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .AboutUser main {
+    padding: 10px;
+  }
+  
+  .AboutUser ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .AboutUser ul li {
+    padding: 10px 20px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+    font-size: 1em;
+  }
+  
+  .AboutUser li .drag {
+    margin-right: 15px;
+    cursor: move;
+  }
+  
+  .AboutUser li svg {
+    height: 1em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  
+  
