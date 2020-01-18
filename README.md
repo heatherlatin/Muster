@@ -14,7 +14,6 @@ They are encrypted with passport.
 
 ![Image description](ScreenShots/1-Muster-Start.png)
 
-
 On the signup page, users answer a few questions. These answers are stored in the mongoDB and will be used to facilitate suggested events and suggested friends
 
 ![Image description](ScreenShots/2-Muster-Signup1.png)
@@ -27,12 +26,11 @@ The last question is a drag and drop! Users drag and drop the options to rank th
 
 ![Image description](ScreenShots/4-Muster-Signup-Drag-and-Drop.png)
 
-
 Once successfully signing up or securely logging in, users arrive at the home screen. All logged in routes are controlled. A non-verified user will always be redirected to the login page if they tried to access a logged in route. 
 
 ![Image description](ScreenShots/5-Muster-Home.png)
 
-The mob page shows the list of friends the user has linked up with (their mob) with the option to search for friends. For now, all new users are friends with each other (to showcase how it works). The long-term plan is to include an array of each users friends' display names and ids in the db. This would allow us to display only their friends and in the background access information (such as the events friends are attending, their location, etc.) from each person's id.
+The mob page shows the list of friends the user has linked up with (their mob) with the option to search for friends. For now, all new users are friends with each other (to showcase how it works). The long-term plan is to include an array of objects with each users friends' display names and ids in the db. This would allow us to display only their friends and in the background access information (such as the events friends are attending, their location, etc.) from each person's id.
 
 ![Image description](ScreenShots/6-Muster-myMob.png)
 
@@ -60,14 +58,4 @@ The User can also select any day of the week to view events they or their friend
 
 ![Image description](ScreenShots/16-Muster-Day-wEvent.png)
 
-Although there is still a lot of work needed to finish and polish this project, I am proud of where it as after only 10 days of development. 
-
-
-
-
-
-
-
-
-
-
+Although there is still a lot of work needed to finish and polish this project, I am proud of where it is after only 10 days of development. 
